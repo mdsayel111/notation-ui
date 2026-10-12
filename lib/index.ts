@@ -96,6 +96,9 @@ export { default as Popover } from './components/shared/popover'
 // spinner exports
 export { default as Spinner } from './components/shared/spinner'
 
+// rating exports
+export { default as Rating } from './components/shared/rating'
+
 // radio exports
 export { default as Radio } from './components/shared/input/radio'
 

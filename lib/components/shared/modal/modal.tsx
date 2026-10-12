@@ -121,12 +121,12 @@ const Modal: React.FC<ModalProps> = ({
     };
 
     const headerVariant = {
-        primary: 'bg-blue-600/10 text-blue-500 border-blue-500/50',
-        secondary: 'bg-slate-600/10 text-slate-400 border-slate-500/50',
-        success: 'bg-emerald-600/10 text-emerald-500 border-emerald-500/50',
-        danger: 'bg-rose-600/10 text-rose-500 border-rose-500/50',
-        info: 'bg-cyan-600/10 text-cyan-500 border-cyan-500/50',
-        default: 'bg-transparent',
+        primary: 'text-blue-500 border-blue-500/50',
+        secondary: 'text-slate-400 border-slate-500/50',
+        success: 'text-emerald-500 border-emerald-500/50',
+        danger: 'text-rose-500 border-rose-500/50',
+        info: 'text-cyan-500 border-cyan-500/50',
+        default: '',
     }[variant];
 
     return createPortal(
@@ -147,7 +147,7 @@ const Modal: React.FC<ModalProps> = ({
           relative z-10 w-full
           bg-background border border-slate-200 dark:border-slate-700 rounded-lg
           shadow-2xl shadow-black/50
-          flex flex-col
+          flex flex-col max-h-[80vh] overflow-y-scroll
           transform transition-all -translate-y-6
           ${sizeClasses[size]}
           ${visible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 -translate-y-6'}
@@ -156,7 +156,7 @@ const Modal: React.FC<ModalProps> = ({
         `}
             >
                 {!header ? (title || variant !== 'default') && (
-                    <div className={cn(`flex items-center justify-between p-4 border-b text-gray-900 dark:text-white border-gray-200 dark:border-slate-700/80`, headerVariant)}>
+                    <div className={cn(`flex items-center sticky top-0 z-[1000] bg-background justify-between p-4 border-b text-gray-900 dark:text-white border-gray-200 dark:border-slate-700/80`, headerVariant)}>
                         <h3 className="text-lg font-semibold flex items-center gap-2">
                             {variant === 'danger' && <AlertTriangle size={18} />}
                             {variant === 'success' && <CheckCircle size={18} />}
