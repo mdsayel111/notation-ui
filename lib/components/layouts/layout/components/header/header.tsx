@@ -4,6 +4,7 @@ import {
     Sun
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { applyTheme, getStoredTheme } from '../../../../utils/theme';
 import Minimize from './components/minimize';
 import NotificationDropdown from './components/notification-dropdown';
 import ProfileDropdown from './components/profile-dropdown';
@@ -28,16 +29,10 @@ export default function Header({
     handleSearch,
     profileImageSrc,
 }: HeaderProps) {
-    const [theme, setTheme] = useState(
-        localStorage.getItem("theme") || "light"
-    );
+    const [theme, setTheme] = useState(getStoredTheme);
 
     useEffect(() => {
-        if (theme === "dark") {
-            document.documentElement.classList.add("dark");
-        } else {
-            document.documentElement.classList.remove("dark");
-        }
+        applyTheme(theme);
         localStorage.setItem("theme", theme);
     }, [theme]);
 

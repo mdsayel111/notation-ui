@@ -1,4 +1,5 @@
 import '../src/index.css'
+import './components/utils/theme'
 
 export { default as RootLayout } from './components/layouts/layout/layout'
 export type { LayoutProps } from './components/layouts/layout/layout'

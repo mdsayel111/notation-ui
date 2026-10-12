@@ -47,6 +47,10 @@ npm install react react-dom
 import "sanmo-ui/style.css";
 ```
 
+Importing a component from `"sanmo-ui"` also initializes the saved theme from
+`localStorage`. Importing the CSS file alone only loads styles; it cannot read
+browser storage or apply the saved theme.
+
 ---
 
 ## 2. Use RootLayout
