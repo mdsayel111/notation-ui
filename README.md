@@ -131,7 +131,7 @@ export default function App() {
 
 ## 📚 TypeScript Support Components
 
-Visit to see all components (https://notation-ui.vercel.app)
+Visit to see all components (https://notation-ui.vercel.app/)
 
 
 All components include type definitions.

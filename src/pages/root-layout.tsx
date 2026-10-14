@@ -64,7 +64,7 @@ const router = createBrowserRouter([
           }
           profileDropdownContents={
               <ProfileDropdownContents // ProfileDropdownContents is a component defined in notation-ui, you can use your own component
-                  username='Sanmo'  // username is a string
+                  username='Notation'  // username is a string
                   menuItems={MenuItems[]}  // MenuItems is a type defined in notation-ui
                   logoutItem={MenuItems[]}  // MenuItems is a type defined in notation-ui
               />

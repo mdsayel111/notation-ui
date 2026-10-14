@@ -244,7 +244,7 @@ export default function RootLayout({ navItems = navItemsData, logo }: RootLayout
             }
             profileDropdownContents={
                 <ProfileDropdownContents
-                    username='Sanmo'
+                    username='Notation'
                     menuItems={menuItems}
                     logoutItem={logoutItem}
                 />
