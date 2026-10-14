@@ -12,7 +12,7 @@ export default function SignIn() {
             <SigninForm />
 
             <div className="max-w-3xl mx-auto">
-                <SourceCode code={`import SignInForm from "sanmo-ui";
+                <SourceCode code={`import SignInForm from "notation-ui";
 
 export default function SignInPage() {
     const handleSignIn = async (

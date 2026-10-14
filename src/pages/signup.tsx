@@ -15,7 +15,7 @@ export default function SignUp() {
       </div>
 
       <div className="max-w-3xl mx-auto">
-        <SourceCode code={`import SignUpForm from "sanmo-ui";
+        <SourceCode code={`import SignUpForm from "notation-ui";
 
 export default function SignUpPage() {
     const handleSignUp = async (

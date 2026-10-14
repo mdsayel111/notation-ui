@@ -21,7 +21,7 @@ export default function Ratings() {
                     <Rating defaultValue={3} />
                 </div>
 
-                <SourceCode code={`import { Rating } from 'sanmo-ui';
+                <SourceCode code={`import { Rating } from 'notation-ui';
 
 <Rating defaultValue={3} />`} />
             </Section>

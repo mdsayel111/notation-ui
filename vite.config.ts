@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => {
         // 📦 LIBRARY BUILD
         lib: {
           entry: path.resolve(__dirname, "lib/index.ts"),
-          name: "sanmo-ui",
+          name: "notation-ui",
           fileName: (format) => `index.${format}.js`,
         },
         rollupOptions: {

@@ -19,7 +19,7 @@ export default function RootLayoutPage() {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
-import { RootLayout, NotificationDropdownContents, ProfileDropdownContents, SearchDropdownContents } from 'sanmo-ui'
+import { RootLayout, NotificationDropdownContents, ProfileDropdownContents, SearchDropdownContents } from 'notation-ui'
 
 const router = createBrowserRouter([
   {
@@ -56,22 +56,22 @@ const router = createBrowserRouter([
           ]}
           logoSrc={"your_logo_path"}
           notificationsDropdownContents={
-              <NotificationDropdownContents   // NotificationDropdownContents is a component defined in sanmo-ui, you can use your own component
-                  notifications={NotificationItem[]}  // NotificationItem is a type defined in sanmo-ui
+              <NotificationDropdownContents   // NotificationDropdownContents is a component defined in notation-ui, you can use your own component
+                  notifications={NotificationItem[]}  // NotificationItem is a type defined in notation-ui
                   handleClearAll={() => { }}  // handleClearAll is a function called when the clear all button is clicked
                   handleViewAll={() => { }}  // handleViewAll is a function called when the view all button is clicked
               />
           }
           profileDropdownContents={
-              <ProfileDropdownContents // ProfileDropdownContents is a component defined in sanmo-ui, you can use your own component
+              <ProfileDropdownContents // ProfileDropdownContents is a component defined in notation-ui, you can use your own component
                   username='Sanmo'  // username is a string
-                  menuItems={MenuItems[]}  // MenuItems is a type defined in sanmo-ui
-                  logoutItem={MenuItems[]}  // MenuItems is a type defined in sanmo-ui
+                  menuItems={MenuItems[]}  // MenuItems is a type defined in notation-ui
+                  logoutItem={MenuItems[]}  // MenuItems is a type defined in notation-ui
               />
           }
           searchDropdownContents={
-            <SearchDropdownContents // SearchDropdownContents is a component defined in sanmo-ui, you can use your own component
-                items={SearchItem[]}  // SearchItem is a type defined in sanmo-ui
+            <SearchDropdownContents // SearchDropdownContents is a component defined in notation-ui, you can use your own component
+                items={SearchItem[]}  // SearchItem is a type defined in notation-ui
             />
           }
           handleSearch={  // handleSearch is a function called when the search button is clicked

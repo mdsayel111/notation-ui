@@ -37,7 +37,7 @@ export default function Paginations() {
                     </Pagination>
                 </div>
 
-                <SourceCode code={`import { Pagination, PaginationItem, PaginationNext, PaginationPrevious } from 'sanmo-ui';
+                <SourceCode code={`import { Pagination, PaginationItem, PaginationNext, PaginationPrevious } from 'notation-ui';
 
 <Pagination>
     <PaginationPrevious />

@@ -6,7 +6,7 @@ import SourceCode from "../components/shared/source-code";
 export default function Home() {
     return (
         <Container
-            title="Sanmo UI"
+            title="Notation UI"
             description="A modern, customizable React UI component library built with Vite, TypeScript, and Tailwind CSS."
         >
             <Section
@@ -28,11 +28,11 @@ export default function Home() {
             >
                 <SourceCode
                     text=""
-                    code={`npm install sanmo-ui`}
+                    code={`npm install notation-ui`}
                 />
                 <SourceCode
                     text=""
-                    code={`yarn add sanmo-ui`}
+                    code={`yarn add notation-ui`}
                 />
 
                 <p className="mt-6 text-xl font-black text-gray-600">
@@ -52,7 +52,7 @@ export default function Home() {
 
                 <h3 className="font-medium mb-2">1. Import styles top of the global css file</h3>
                 <SourceCode
-                    code={`@import "sanmo-ui/style.css";;`}
+                    code={`@import "notation-ui/style.css";;`}
                 />
 
                 {/* <h3 className="font-medium mt-6 mb-2">2. Use RootLayout</h3>
@@ -62,7 +62,7 @@ export default function Home() {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
-import { RootLayout } from "sanmo-ui";
+import { RootLayout } from "notation-ui";
 
 const navItemsData: SidebarNavItem[] = [
     {
@@ -113,7 +113,7 @@ export default function App() {
 `
                     } /> */}
                 {/* <SourceCode
-                    code={`import { Button } from "sanmo-ui";
+                    code={`import { Button } from "notation-ui";
 export default function App() {
   return <Button>Click me</Button>;
 }`}
@@ -125,8 +125,8 @@ export default function App() {
                 title="📚 TypeScript Support"
             >
                 <SourceCode
-                    code={`import { Button } from "sanmo-ui";
-import type { Shape, Size, StyleType, Variant } from "sanmo-ui";
+                    code={`import { Button } from "notation-ui";
+import type { Shape, Size, StyleType, Variant } from "notation-ui";
 
 type MyButtonProps = {
   size?: Size;

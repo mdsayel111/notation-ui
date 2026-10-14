@@ -34,7 +34,7 @@ export default function Badges() {
                         h6. Example heading <Badge variant="danger">New</Badge>
                     </h6>
                 </div>
-                <SourceCode code={`import { Badge } from 'sanmo-ui';
+                <SourceCode code={`import { Badge } from 'notation-ui';
 
 <h1>Example heading <Badge variant="primary">New</Badge></h1>
 <h2>Example heading <Badge variant="secondary">New</Badge></h2>
@@ -63,7 +63,7 @@ export default function Badges() {
                         ))}
                     </div>
                 </div>
-                <SourceCode code={`import { Badge } from 'sanmo-ui';
+                <SourceCode code={`import { Badge } from 'notation-ui';
 
 // Default Solid Badges
 <Badge variant="primary">Primary</Badge>
@@ -93,7 +93,7 @@ export default function Badges() {
                         ))}
                     </div>
                 </div>
-                <SourceCode code={`import { Badge } from 'sanmo-ui';
+                <SourceCode code={`import { Badge } from 'notation-ui';
 
 <Badge variant="primary" styleType="outline">Primary</Badge>
 <Badge variant="warning" styleType="outline" pill>Warning</Badge>`} />
@@ -118,7 +118,7 @@ export default function Badges() {
                         ))}
                     </div>
                 </div>
-                <SourceCode code={`import { Badge } from 'sanmo-ui';
+                <SourceCode code={`import { Badge } from 'notation-ui';
                 
 // Soft Badges
 <Badge variant="primary" styleType="soft">Primary</Badge>
@@ -171,7 +171,7 @@ export default function Badges() {
                         <span className="absolute -top-1 -right-1 w-3 h-3 bg-rose-500 rounded-full border-2 border-[#0f172a]"></span>
                     </button>
                 </div>
-                <SourceCode code={`import { Badge } from 'sanmo-ui';
+                <SourceCode code={`import { Badge } from 'notation-ui';
 
 // Inside Button
 <button className="btn...">

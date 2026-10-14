@@ -44,7 +44,7 @@ export default function Tooltips() {
           </Tooltip>
         </div>
 
-        <SourceCode code={`import { Tooltip } from 'sanmo-ui';
+        <SourceCode code={`import { Tooltip } from 'notation-ui';
 
 <Tooltip position="top" content="Tooltip on top">
   <button>Tooltip on top</button>

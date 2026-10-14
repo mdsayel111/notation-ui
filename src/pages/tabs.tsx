@@ -40,7 +40,7 @@ export default function Tabs() {
                     <TabContent value="messages"><p>You have 3 new messages in your inbox.</p></TabContent>
                 </Tab>
 
-                <SourceCode code={`import { Tabs, TabsList, TabsTrigger, TabsContent } from 'sanmo-ui';
+                <SourceCode code={`import { Tabs, TabsList, TabsTrigger, TabsContent } from 'notation-ui';
 
 <Tabs defaultValue="home">
   <TabsList>

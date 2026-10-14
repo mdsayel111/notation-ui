@@ -53,7 +53,7 @@ export default function Modals() {
                     <ModalBody>Woohoo, you're reading this text in a modal!</ModalBody>
                 </Modal>
 
-                <SourceCode code={`import { modal } from 'sanmo-ui';
+                <SourceCode code={`import { modal } from 'notation-ui';
                 
 const [isOpen, setIsOpen] = useState(false);
 
@@ -84,7 +84,7 @@ const [isOpen, setIsOpen] = useState(false);
                     </ModalBody>
                 </Modal>
 
-                <SourceCode code={`import { modal } from 'sanmo-ui';
+                <SourceCode code={`import { modal } from 'notation-ui';
 
 <Modal 
   isOpen={isOpen} 
@@ -119,7 +119,7 @@ const [isOpen, setIsOpen] = useState(false);
                     </ModalBody>
                 </Modal>
 
-                <SourceCode code={`import { modal } from 'sanmo-ui';
+                <SourceCode code={`import { modal } from 'notation-ui';
 
 <Modal 
   isOpen={isOpen} 
@@ -170,7 +170,7 @@ const [isOpen, setIsOpen] = useState(false);
                     <ModalBody>Hide this modal and show the first with the button below.</ModalBody>
                 </Modal>
 
-                <SourceCode code={`import { modal } from 'sanmo-ui';
+                <SourceCode code={`import { modal } from 'notation-ui';
 
 {/* Logic to swap states */}
 
@@ -207,7 +207,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <Modal isOpen={sizeLG} onClose={() => setSizeLG(false)} size="lg" title="Large Modal"><ModalBody>LG Content</ModalBody></Modal>
                 <Modal isOpen={sizeSM} onClose={() => setSizeSM(false)} size="sm" title="Small Modal"><ModalBody>SM Content</ModalBody></Modal>
 
-                <SourceCode code={`import { modal } from 'sanmo-ui';
+                <SourceCode code={`import { modal } from 'notation-ui';
 
 <Modal size="xl" ... />
 <Modal size="lg" ... />
@@ -224,7 +224,7 @@ const [isOpen, setIsOpen] = useState(false);
                         <p>This covers the entire screen.</p>
                     </ModalBody>
                 </Modal>
-                <SourceCode code={`import { modal } from 'sanmo-ui';
+                <SourceCode code={`import { modal } from 'notation-ui';
 
 <Modal size="full" ... />`}
                 />
@@ -244,7 +244,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <Modal isOpen={alertSuccess} onClose={() => setAlertSuccess(false)} variant="success" title="Success Alert" footer={<Button variant="success" onClick={() => setAlertSuccess(false)}>Done</Button>}><ModalBody>Operation completed successfully!</ModalBody></Modal>
                 <Modal isOpen={alertInfo} onClose={() => setAlertInfo(false)} variant="info" title="Info Alert" footer={<Button variant="info" onClick={() => setAlertInfo(false)}>Understand</Button>}><ModalBody>Here is some useful information.</ModalBody></Modal>
 
-                <SourceCode code={`import { modal } from 'sanmo-ui';
+                <SourceCode code={`import { modal } from 'notation-ui';
 
 <Modal variant="danger" title="Error" ... />
 <Modal variant="success" title="Success" ... />`} />

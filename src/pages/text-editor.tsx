@@ -29,7 +29,7 @@ export default function TextEditors() {
                 </div>
 
                 <SourceCode code={`import { useState } from 'react';
-import { TextEditor } from 'sanmo-ui';
+import { TextEditor } from 'notation-ui';
 
 function Example() {
   const [content, setContent] = useState('');

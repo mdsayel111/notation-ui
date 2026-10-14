@@ -1,4 +1,4 @@
-# sanmo-ui
+# notation-ui
 
 A modern, customizable React UI component library built with Vite, TypeScript, and Tailwind CSS.
 
@@ -18,13 +18,13 @@ A modern, customizable React UI component library built with Vite, TypeScript, a
 # 📦 Installation
 
 ```bash
-npm install sanmo-ui
+npm install notation-ui
 ```
 
 or
 
 ```bash
-yarn add sanmo-ui
+yarn add notation-ui
 ```
 
 ## ⚠️ Peer Dependencies
@@ -35,7 +35,7 @@ Ensure these are installed:
 npm install react react-dom
 ```
 
-`sanmo-ui` does not require a routing library. The layout uses regular links by default; pass your framework's link component through `LinkComponent` when you want client-side navigation.
+`notation-ui` does not require a routing library. The layout uses regular links by default; pass your framework's link component through `LinkComponent` when you want client-side navigation.
 
 ---
 
@@ -44,10 +44,10 @@ npm install react react-dom
 ## 1. Import styles
 
 ```ts
-import "sanmo-ui/style.css";
+import "notation-ui/style.css";
 ```
 
-Importing a component from `"sanmo-ui"` also initializes the saved theme from
+Importing a component from `"notation-ui"` also initializes the saved theme from
 `localStorage`. Importing the CSS file alone only loads styles; it cannot read
 browser storage or apply the saved theme.
 
@@ -56,8 +56,8 @@ browser storage or apply the saved theme.
 ## 2. Use RootLayout
 
 ```tsx
-import { RootLayout } from "sanmo-ui";
-import "sanmo-ui/style.css"
+import { RootLayout } from "notation-ui";
+import "notation-ui/style.css"
 
 export default function App() {
   return (
@@ -120,7 +120,7 @@ export default function App() {
 Breadcrumbs also accept an optional `LinkComponent` prop.
 
 ```tsx
-import { Button } from "sanmo-ui";
+import { Button } from "notation-ui";
 
 export default function App() {
   return <Button>Click me</Button>;
@@ -131,14 +131,14 @@ export default function App() {
 
 ## 📚 TypeScript Support Components
 
-Visit to see all components (https://sanmo-ui.vercel.app)
+Visit to see all components (https://notation-ui.vercel.app)
 
 
 All components include type definitions.
 
 ```ts
-import { Button } from "sanmo-ui";
-import type { Shape, Size, StyleType, Variant } from "sanmo-ui";
+import { Button } from "notation-ui";
+import type { Shape, Size, StyleType, Variant } from "notation-ui";
 
 type MyButtonProps = {
   size?: Size;

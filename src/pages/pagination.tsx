@@ -274,7 +274,7 @@ export default function PaginationPage() {
 
                 <SourceCode
                     code={`import { useEffect, useState } from "react";
-import { Pagination } from "sanmo-ui";
+import { Pagination } from "notation-ui";
 
 type User = { id: number; name: string };
 

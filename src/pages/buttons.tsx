@@ -38,7 +38,7 @@ const Buttons: React.FC = () => {
                     </Button>
                 ))}
 
-                <SourceCode code={`import { Button } from 'sanmo-ui';
+                <SourceCode code={`import { Button } from 'notation-ui';
 
 <Button variant="primary">Submit</Button>
 
@@ -61,7 +61,7 @@ const Buttons: React.FC = () => {
                         {v}
                     </Button>
                 ))}
-                <SourceCode code={`import { Button } from 'sanmo-ui';
+                <SourceCode code={`import { Button } from 'notation-ui';
 
 <Button variant="primary" shape="pill">Submit</Button>
 
@@ -91,7 +91,7 @@ const Buttons: React.FC = () => {
                         </Button>
                     ))}
 
-                <SourceCode code={`import { Button } from 'sanmo-ui';
+                <SourceCode code={`import { Button } from 'notation-ui';
 
 <Button variant="primary" styleType="outline">Submit</Button>
 
@@ -122,7 +122,7 @@ const Buttons: React.FC = () => {
                         </Button>
                     ))}
 
-                <SourceCode code={`import { Button } from 'sanmo-ui';
+                <SourceCode code={`import { Button } from 'notation-ui';
 
 <Button variant="primary" styleType="outline" shape="pill">Submit</Button>
 
@@ -153,7 +153,7 @@ const Buttons: React.FC = () => {
                     </Button>
                 ))}
 
-                <SourceCode code={`import { Button } from 'sanmo-ui';
+                <SourceCode code={`import { Button } from 'notation-ui';
 
 <Button variant="primary" styleType="soft">Submit</Button>
 

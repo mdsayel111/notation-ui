@@ -44,7 +44,7 @@ export default function Inputs() {
         </div>
 
         <SourceCode code={`import { useState } from 'react';
-import { SearchInput } from 'sanmo-ui';
+import { SearchInput } from 'notation-ui';
 
 const [search, setSearch] = useState('');
 

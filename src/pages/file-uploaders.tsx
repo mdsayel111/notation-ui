@@ -18,7 +18,7 @@ export default function FileUploaders() {
             >
                 <FileUploader multiple={true} />
 
-                <SourceCode code={`import { FileUploader } from 'sanmo-ui';
+                <SourceCode code={`import { FileUploader } from 'notation-ui';
 
 <FileUploader 
   multiple 

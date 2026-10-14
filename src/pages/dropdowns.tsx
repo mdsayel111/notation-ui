@@ -39,7 +39,7 @@ export default function Dropdowns() {
                         </DropdownContent>
                     </Dropdown>
                 </div>
-                <SourceCode code={`import { Dropdown } from 'sanmo-ui';
+                <SourceCode code={`import { Dropdown } from 'notation-ui';
 
 <Dropdown>
     <DropdownPlaceholder>

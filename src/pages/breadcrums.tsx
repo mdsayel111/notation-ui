@@ -29,7 +29,7 @@ export default function Breadcrumbs() {
                     <Breadcrumb items={level3} />
                 </div>
 
-                <SourceCode code={`import { Breadcrumb } from 'sanmo-ui';
+                <SourceCode code={`import { Breadcrumb } from 'notation-ui';
 
 <Breadcrumb items={[
   { label: 'Home', href: '/' },
@@ -54,7 +54,7 @@ export default function Breadcrumbs() {
 
                 </div>
 
-                <SourceCode code={`import { Breadcrumb } from 'sanmo-ui';
+                <SourceCode code={`import { Breadcrumb } from 'notation-ui';
 
 // Using a string separator
 <Breadcrumb items={items} separator=">" />
@@ -78,7 +78,7 @@ export default function Breadcrumbs() {
                         ]}
                     />
                 </div>
-                <SourceCode code={`import { Breadcrumb } from 'sanmo-ui';
+                <SourceCode code={`import { Breadcrumb } from 'notation-ui';
 
 <Breadcrumb
     items={[

@@ -74,7 +74,7 @@ export default function Sidebar({
                 <div className='w-full'>
                     {/* Logo Area */}
                     <div className="h-16 flex items-center pl-3.5 pr-6 bg-foreground border-b border-slate-700/30 sticky top-0">
-                        <img src={logoSrc} alt="logo" className="w-28" />
+                        <img src={logoSrc} alt="logo" className="w-50" />
                     </div>
 
                     {/* Scrollable Menu Area */}

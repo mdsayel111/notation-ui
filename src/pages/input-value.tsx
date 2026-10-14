@@ -20,7 +20,7 @@ export default function InputValues() {
                     />
                 </div>
 
-                <SourceCode code={`import { InputValue } from 'sanmo-ui';
+                <SourceCode code={`import { InputValue } from 'notation-ui';
 
 <InputValue
   label="Invoice Number"

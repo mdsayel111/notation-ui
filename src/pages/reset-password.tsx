@@ -148,7 +148,7 @@ export default function ForgotPasswordExamples() {
 
                 <div className="max-w-3xl mx-auto">
                     <SourceCode
-                        code={`import ResetPasswordForm from "sanmo-ui";
+                        code={`import ResetPasswordForm from "notation-ui";
 
 export default function ResetPasswordPage() {
     return (
@@ -177,7 +177,7 @@ export default function ResetPasswordPage() {
 
                 <div className="max-w-3xl mx-auto">
                     <SourceCode
-                        code={`import VerifyOtpForm from "sanmo-ui";
+                        code={`import VerifyOtpForm from "notation-ui";
 
 export default function VerifyOtpPage() {
     return (
@@ -212,7 +212,7 @@ export default function VerifyOtpPage() {
 
                 <div className="max-w-3xl mx-auto">
                     <SourceCode
-                        code={`import NewPasswordForm from "sanmo-ui";
+                        code={`import NewPasswordForm from "notation-ui";
 
 export default function NewPasswordPage() {
     return (

@@ -23,7 +23,7 @@ export default function ImageInputs() {
                     className="h-64 max-w-md"
                 />
                 <SourceCode code={`import { useState } from 'react';
-import { ImageInput, type ImageInputValue } from 'sanmo-ui';
+import { ImageInput, type ImageInputValue } from 'notation-ui';
 
 function Example() {
   const [image, setImage] = useState<ImageInputValue>(null);
